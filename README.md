@@ -1,0 +1,2 @@
+# checkers
+Simple checkers variant
