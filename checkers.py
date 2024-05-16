@@ -1,5 +1,4 @@
 import os
-from typing import List, Optional
 
 W = True
 B = False
@@ -12,7 +11,6 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
 
-board_position: List[List[Optional[bool]]]
 board_position = [
     [W, B, W, B],
     [B, W, B, W],
